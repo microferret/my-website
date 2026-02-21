@@ -1,3 +1,8 @@
+.vt323-regular {
+  font-family: "VT323", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
 img{
     width: 400px;
 }
@@ -6,7 +11,7 @@ h1{
     color:rgb(0, 0, 0);
 }
 h2{
-    font-family: "Bitcount Grid Double", "consolas";
+    font-family: "VT323", "consolas";
     color:rgb(0, 255, 13);
 }
 body{
