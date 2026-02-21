@@ -1,7 +1,16 @@
 img{
     width: 400px;
 }
+h1{
+    font-family: "Bitcount Grid Double", "consolas";
+    color:rgb(0, 0, 0);
+}
+h2{
+    font-family: "Bitcount Grid Double", "consolas";
+    color:rgb(0, 255, 13);
+}
 body{
+    background-color: rgb(139, 131, 255);
     text-align: center;
     font-family: sans-serif;
     color:rgb(158, 42, 22);
