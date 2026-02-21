@@ -3,6 +3,26 @@
   font-weight: 400;
   font-style: normal;
 }
+#aniBox{
+    width: 125px;
+    height: 125px;
+    background: orange;
+    font-size: 100px;
+    text-align: center;
+
+    animation: mySlide;
+    animation-play-state: running;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+}
+@keyframes mySlide {
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+    from{margin-top: 30%;}
+    from{margin-top: 20%;}
+}
 img{
     width: 400px;
 }
@@ -12,7 +32,7 @@ h1{
 }
 h2{
     font-family: "VT323", "consolas";
-    color:rgb(0, 255, 13);
+    color:rgb(255, 0, 0);
 }
 body{
     background-color: rgb(139, 131, 255);
